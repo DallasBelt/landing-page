@@ -10,8 +10,17 @@ body {
 
 header {
   background-color: #1F2937;
-  color: #FFF;
-  padding: 1rem 5rem;
+  padding: 1rem 10rem;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: 700;
+  color: #F9FAF8;
 }
 
 nav > ul {
@@ -22,11 +31,8 @@ nav > ul {
 
 nav a {
   text-decoration: none;
-  color: #FFF;
-}
-
-.logo {
-  margin-right: auto;
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
 .hero {
@@ -38,11 +44,13 @@ nav a {
 .hero h1 {
   font-size: 48px;
   font-weight: 900;
+  color: #F9FAF8;
 }
 
 .hero p {
-  font-size: 18px;
   margin-bottom: 10px;
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 .hero button {
@@ -52,5 +60,105 @@ nav a {
   color: #FFF;
   border-radius: 10px;
   font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.random {
+  padding: 2.5rem 10rem 8rem;
+}
+
+.random div {
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+}
+
+.random h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin-bottom: 3rem;
+}
+
+.random h2, .frame p {
+  text-align: center;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 160px;
+}
+
+.frame img {
+  border: 4px solid #3882F6;
+  border-radius: 10px;
+}
+
+.frame p {
+  margin-top: 0.5rem;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 8rem 18rem 6rem;
+  /* height: 300px; */
+  display: flex;
+  align-items: center;
+}
+
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.quote footer {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.call {
+  padding: 6rem 8rem;
+}
+
+.call-container {
+  background-color: #3882F6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+}
+
+.call h2, .call p {
+  color: #FFF;
+}
+
+.call-container button {
+  background-color: transparent;
+  border: 2px solid #FFF;
+  padding: 0.5rem 2rem;
+  color: #FFF;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #1F2937;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer span {
+  color: #F9FAF8;
   font-size: 18px;
 }
